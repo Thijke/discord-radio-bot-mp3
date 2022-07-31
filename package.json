@@ -1,0 +1,18 @@
+{
+  "name": "radio-bot",
+  "version": "1.0.0",
+  "description": "discord radio bot that streams from an mp3 file extention",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thijke#1234",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.9.0",
+    "discord.js": "^13.6.0",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.10"
+  }
+}
